@@ -1,0 +1,70 @@
+* {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    background-image: url(img/fondo7.avif);
+    align-items: center;
+    justify-content: center;
+  }
+
+  ::selection {
+    color: #000000;
+    background: #0D6EFD;
+  }
+ 
+form.registro {
+    background: none repeat scroll 0 0 rgba(183, 212, 254, 0.7);
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 350px;
+}
+ 
+form.registro div {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+ 
+form.registro div label {
+    display: block;
+    float: left;
+    line-height: 25px;
+}
+ 
+form.registro div input[type="text"],
+form.registro div input[type="password"] {
+    
+    float: right;
+    padding: 6px;
+    background-color: rgba(243, 248, 255, 0.5);
+    border-radius: 18px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+ 
+form.registro div input[type="submit"] {
+    background: linear-gradient(to right, #19248A, #373BC9);
+    border: none;
+    border-radius: 18px;
+    width: 40%;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-weight: bold;
+    padding: 4px 20px;
+}
+ 
+.error {
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+ 
